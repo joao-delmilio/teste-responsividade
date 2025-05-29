@@ -1,0 +1,199 @@
+/* Reset básico e box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Layout fluido */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Imagens automáticas e responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tipografia responsiva */
+h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+p {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    margin-bottom: 1em;
+}
+
+/* Flexível para seções */
+.flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex>div {
+    flex: 1 1 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar simples */
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* AQUI COMECA O CSS 100% REAL OFICIAL */
+/* AQUI COMECA O CSS 100% REAL OFICIAL */
+/* AQUI COMECA O CSS 100% REAL OFICIAL */
+/* AQUI COMECA O CSS 100% REAL OFICIAL */
+/* AQUI COMECA O CSS 100% REAL OFICIAL */
+
+
+
+#pesquisa {
+    position: flex;
+    padding-top: 10px;
+    padding-left: 300px;
+}
+
+.omfm-logo {
+    height: auto;
+}
+
+.reseba {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.barra-horizontal {
+    margin: 0 auto;
+    width: 100%;
+    height: 0.5px;
+    background-color: #a1a1a1
+}
+
+.barra-horizontal-2 {
+    margin-left: 19%;
+    width: 63%;
+    height: 0.5px;
+    background-color: #a1a1a1
+}
+
+#entra {
+    position: flex;
+    right: 0;
+}
+
+.conta-content {
+    text-align: center;
+    justify-content: center;
+}
+
+.title-pg {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.lista-album{
+    /* onde vai comportar todos os albums */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
+/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
+/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
+/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
+/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
+
+.mega-lista{
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+#album-dp {
+    /* é o "todo" do album (cv, tl e mc) */
+    position: flex;
+    width: 233px;
+    border-style: solid;
+    justify-content: center;
+}
+
+#album-linked{
+    border-style: solid;
+    border-color: blue;
+}
+#album-cv {
+    /* album cover, e a capa do album */
+    width: 233px;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+}
+
+#album-tl {
+    /* album title, é o titulo do album */
+    padding-top: 5px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+
+#album-mc {
+    /*album mestre de cerimonia, quem é o responsavel do album */
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+}
+
+.ordenage{
+    padding-left: 19%;
+    padding-bottom: 12px;
+}
