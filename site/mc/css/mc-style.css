@@ -127,92 +127,15 @@ nav ul li a:hover {
     right: 0;
 }
 
-.conta-content {
-    text-align: center;
-    justify-content: center;
-}
+/*AQUI COMECA SOBRE OS ALBUMS
+/*AQUI COMECA SOBRE OS ALBUMS
+/*AQUI COMECA SOBRE OS ALBUMS
+/*AQUI COMECA SOBRE OS ALBUMS
+/*AQUI COMECA SOBRE OS ALBUMS
+/*AQUI COMECA SOBRE OS ALBUMS*/
 
-.title-pg {
-    padding-top: 75px;
-    padding-bottom: 50px;
-    justify-content: center;
-    text-align: center;
-}
-
-.lista-album {
-    /* onde vai comportar todos os albums */
+.mc-profile{
     display: flex;
-    gap: 20px;
     justify-content: center;
-    padding: 20px;
-}
-
-/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
-/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
-/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
-/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
-/*AQUI É ONDE SE ENCONTRA TODOS OS ALBUMS*/
-
-a:link, a:visited, a:active {
-    color: #333;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #333;
-    text-decoration: underline;
-}
-
-
-
-.mega-lista {
-    border-style: solid;
-    border-color: greenyellow;
-}
-
-#album-dp {
-    /* é o "todo" do album (cv, tl e mc) */
-    position: flex;
-    width: 233px;
-    border-style: solid;
-    justify-content: center;
-    transition: transform .2s;
-    /* tempo que leva para a transition */
-}
-
-#album-dp:hover {
-    transform: scale(1.2);
-}
-
-#album-linked {
-    border-style: solid;
-    border-color: blue;
-}
-
-#album-cv {
-    /* album cover, e a capa do album */
-    width: 233px;
-    justify-content: center;
-    border-style: solid;
-    border-color: red;
-}
-
-#album-tl {
-    /* album title, é o titulo do album */
-    padding-top: 5px;
-    font-size: 18px;
-    justify-content: center;
-    text-align: center;
-}
-
-#album-mc {
-    /*album mestre de cerimonia, quem é o responsavel do album */
-    font-size: 16px;
-    justify-content: center;
-    text-align: center;
-}
-
-.ordenage {
-    padding-left: 19%;
-    padding-bottom: 12px;
+    align-items: center;
 }
