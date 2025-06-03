@@ -134,8 +134,68 @@ nav ul li a:hover {
 /*AQUI COMECA SOBRE OS ALBUMS
 /*AQUI COMECA SOBRE OS ALBUMS*/
 
-.mc-profile{
+.mc-profile {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 15px;
+}
+
+.mc-name {
+    font-size: 30px;
+    text-align: center;
+}
+
+.mc-aka {
+    font-size: 17px;
+    text-align: center;
+}
+
+#mc-pfp {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.mc-story {
+    display: flex;
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-left: 25%;
+    background-color: #a8222247;
+}
+
+.mc-about {
+    margin-right: 45%;
+}
+
+.mc-musics {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.look-like{
+    margin-right: 30px;
+}
+
+.mc-ml {
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.mc-ml:hover{
+    transform:scale(1.2);
+}
+
+.mc-ml img{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
